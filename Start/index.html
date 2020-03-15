@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+
+    <body>
+        <!-- Headings -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraph -->
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Eligendi adipisci doloremque ullam alias sint? Non voluptas 
+            distinctio, est aut <strong>culpa autem fugit quisquam libero cupiditate, 
+            inventore quia minus iusto doloremque assumenda sint eum a? 
+            Et asperiores eaque alias quo dicta minima! Similique dignissimos 
+            rem dolores temporibus necessitatibus.</strong> Nemo, itaque harum! Quidem 
+            tempora dolore aliquid commodi, totam accusantium non error aperiam 
+            magni alias eos iusto. Omnis doloremque doloribus quis iusto dolore 
+            vero ullam, iste vitae? Voluptatibus repudiandae cupiditate aliquam 
+            voluptatem deserunt a! Tempora reiciendis, quaerat laborum eveniet 
+            harum repellendus porro dolorum nostrum, maiores numquam 
+            exercitationem cupiditate ipsa eaque voluptatibus quae placeat!
+        </p>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur <a href="http://google.com"
+             target="_blank">adipisicing elit. 
+            Eligendi adipisci</a> doloremque ullam alias sint? Non voluptas 
+            distinctio, est aut culpa autem fugit quisquam libero cupiditate, 
+            inventore quia minus iusto doloremque assumenda sint eum a? 
+            Et asperiores eaque alias quo dicta minima! Similique dignissimos 
+            rem dolores temporibus necessitatibus. Nemo, itaque harum! Quidem 
+            tempora dolore aliquid commodi, totam accusantium non error aperiam 
+            magni alias eos iusto. Omnis doloremque doloribus quis iusto dolore 
+            vero ullam, iste vitae? Voluptatibus repudiandae cupiditate aliquam 
+            voluptatem deserunt a! Tempora reiciendis, quaerat laborum eveniet 
+            harum repellendus porro dolorum nostrum, maiores numquam 
+            exercitationem cupiditate ipsa eaque voluptatibus quae placeat!
+        </p>
+
+        <!-- Lists -->
+
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+
+        </ul>
+
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+
+        </ol>
+
+        <!-- Tables -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>EMail</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A Person</td>
+                    <td>aPerson@somewhere.com</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>This Person</td>
+                    <td>tPerson@somewhereelse.com</td>
+                    <td>26</td>
+                <tr>
+                    <td>That Person</td>
+                    <td>thatPerson@nothere.com</td>
+                    <td>37</td>
+            </tbody>
+        </table>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Forms -->
+        <form action="process.php" method="POST">
+            <div>
+                <label>First Name:</label>
+                <input type="text" name="firstName" placeholder="Enter first name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name:</label>
+                <input type="text" name="lastName">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message:</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender:</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="Submit" value="Submit">
+           
+
+        </form>
+
+        <!-- Button -->
+
+        <button>Click Me</button>
+
+        <!-- Image -->
+        <br>
+        <a href="images\bird.jpeg">
+            <img src="images\bird.jpeg" alt="Bird Image" width="200px">
+        </a>
+
+        <!-- Quotations -->
+
+        
+        <div style="margin-top:500px;"></div>
+    </body>
+</html>
+
+
+
+
+<!--
+
+Tag Sysntax Explanation
+    Element names surrounded by angle brackets
+    Tags usually com in pairs a start and an end tag
+    The end tag adds a forward slash
+    Some tags are self closing (From XHTML)
+
+HTML Page Structure
+    <html>
+        <head>
+            <title></title>
+        </head>
+        <body>
+            <h1></h1>
+            <p></p>            
+        </body>
+    </html>
+
+Inline vs Block Level Elements
+        Inline Elements:
+            Inline: <span>,<img>,<a?
+            Do not start on a new line
+            Take only the necessary width
+        Block Elements:
+            Block Level: <div>,<h1>-<h6>,<p>,<form>
+            Start on a new line
+            Tack fll width available
+Tag Attributes
+        All tags can have attributes
+        Provide information about an element
+        Placed within the start tag
+        Key/value pairs (id = "someid")
+
+-->
